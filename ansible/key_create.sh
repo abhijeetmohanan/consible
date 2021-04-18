@@ -1,3 +1,3 @@
 #! /bin/bash
 
-ssh-keygen -N ' ' -t rsa 
+ssh-keygen -f /root/.ssh/id_rsa -N '' -t rsa 
