@@ -1,4 +1,4 @@
-# this file contains the folders required for Bulding conatniners
+# this file contains the folders required for Building containers
 
-` Each file contains a shell script to build the image `
+` Each file contains a description to build the image `
 
