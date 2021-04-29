@@ -1,0 +1,10 @@
+PASS=$1
+USER=$2
+PATH_VAL=/root/data/inv.ini
+ssh-keygen -t rsa -b 4096 -N '' -f /root/.ssh/id_rsa
+for HOSTS in $(cat $PATH_VAL)
+do
+        sshpass -p $PASS ssh-copy-id -o StrictHostKeyChecking=false $USER@$HOSTS
+done
+
+# to run ./key_generate.sh <password> <username>
