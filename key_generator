@@ -1,6 +1,6 @@
 PASS=$1
 USER=$2
-PATH_VAL=/root/data/inv.ini
+PATH_VAL=/root/nopassDir/m1server/Inventory.ini
 
 if  [ -f /root/.ssh/id_rsa ]
 then
